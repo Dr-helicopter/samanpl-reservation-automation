@@ -17,7 +17,9 @@ cd samanpl-reservation-automation
 
 Configuration:
 
+----
 edit the password.py file
+----
 
 Run:
 [source,bash]
