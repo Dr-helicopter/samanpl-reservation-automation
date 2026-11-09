@@ -14,7 +14,7 @@ def select_seat(popup):
 
 if __name__ == "__main__":
 	with sync_playwright() as p:
-		browser = p.chromium.launch(headless=False)   # headless=True hides the window
+		browser = p.chromium.launch(headless=True)
 		page = browser.new_page()
 
 		page.goto("https://107112.samanpl.ir/")

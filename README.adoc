@@ -1,0 +1,27 @@
+= samanpl
+
+just a small python automation script for reserving samanpl.ir
+library seats.
+
+
+playwright for such a simple task might have been overkill, but still.
+I dont know who designed this site. it feels ancient, and I hate using it.
+
+== usage
+Clone the repository:
+[source,bash]
+----
+git git@github.com:Dr-helicopter/samanpl-reservation-automation.git
+cd samanpl-reservation-automation
+----
+
+Configuration:
+
+edit the password.py file
+
+Run:
+[source,bash]
+----
+nix run <path to the repo>
+----
+
